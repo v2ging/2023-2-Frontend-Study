@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List 📝</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contatiner">
+      <h1>To Do List 📝</h1>
+      <form id="input-form">
+        <input id="input-text" type="text" placeholder="What's your to-do?" />
+        <button id="input-botton">➕</button>
+      </form>
+      <section class="todo-section">
+        <h2>
+          TO DO 🔔
+          <span id="todo-count">(0)</span>
+        </h2>
+        <ul id="todo-list"></ul>
+      </section>
+      <section class="done-section">
+        <h2>
+          FINISH 🥊
+          <span id="done-count">(0)</span>
+        </h2>
+        <ul id="done-list"></ul>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
